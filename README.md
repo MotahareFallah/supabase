@@ -5,6 +5,18 @@ This project involves designing, implementing, and querying a bookstore database
 
 ---
 
+## Database Design and Implementation
+
+### Task
+Design and implement a relational database with two tables: **Books** and **Authors**.
+
+- **Books**:
+  - Columns: `book_id`, `title`, `author_id`, `price`, `publish_date`
+- **Authors**:
+  - Columns: `author_id`, `name`, `country`
+
+Ensure proper foreign key constraints are configured.
+
 ## RESTful Edge Function
 
 ### Task
@@ -37,3 +49,25 @@ Write SQL queries for:
 1. Finding all authors who have published more than 5 books.
 2. Calculating the average book price for each country.
 3. Retrieving a list of books with author names, sorted by price in descending order, and filterable by a specific year of publication.
+
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:MotahareFallah/supabase.git
+   cd supabase
+   ```
+
+2. Set up environment variables for Supabase:
+   - Create a `.env` file:
+     ```env
+     SUPABASE_URL=https://your-supabase-url.supabase.co
+     SUPABASE_KEY=your-service-key
+     ```
+
+3. Running Edge Functions locally
+    ```bash
+    supabase start # start the supabase stack
+    supabase functions serve # start the Functions watcher
+    ```
