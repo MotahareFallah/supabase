@@ -3,7 +3,6 @@
 ## Test Overview
 This project involves designing, implementing, and querying a bookstore database using Supabase. It includes creating a RESTful edge function and writing advanced SQL queries.
 
----
 
 ## Database Design and Implementation
 
