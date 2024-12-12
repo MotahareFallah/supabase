@@ -37,18 +37,9 @@ Write a RESTful API endpoint:
 - Query parameters for filtering and sorting.
 
 **How to Run**:
-- Deploy the function by navigating to the **Edge Functions** section in Supabase.
+- Deploy the function to **Edge Functions** in Supabase.
 - Test the API using Postman or curl.
 
----
-
-## Advanced SQL Queries
-
-### Task
-Write SQL queries for:
-1. Finding all authors who have published more than 5 books.
-2. Calculating the average book price for each country.
-3. Retrieving a list of books with author names, sorted by price in descending order, and filterable by a specific year of publication.
 
 
 ## Setup Instructions
@@ -71,3 +62,15 @@ Write SQL queries for:
     supabase start # start the supabase stack
     supabase functions serve # start the Functions watcher
     ```
+
+## Advanced SQL Queries
+
+### Task
+Write SQL queries for:
+1. Finding all authors who have published more than 5 books.
+2. Calculating the average book price for each country.
+3. Retrieving a list of books with author names, sorted by price in descending order, and filterable by a specific year of publication.
+
+
+## API Testing with Postman
+- API functionality can be demonstrated using the provided Postman collection (`supabase.postman_collection.json`).

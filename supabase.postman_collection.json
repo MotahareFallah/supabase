@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "8f412433-dc7f-49be-ad13-332a6fbe5080",
+		"name": "supabase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23961450"
+	},
+	"item": [
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9wbXN5dnlzd2NreWxsZHh4dHh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM4MzI3NjEsImV4cCI6MjA0OTQwODc2MX0.j2Dy3hcYatDc4itUCTCyvOSRJGU4xrnT6ZoimLcYDbs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://opmsyvyswckylldxxtxx.supabase.co/functions/v1/Books?author_id=1&sort=asc&limit=10&offset=20",
+					"protocol": "https",
+					"host": [
+						"opmsyvyswckylldxxtxx",
+						"supabase",
+						"co"
+					],
+					"path": [
+						"functions",
+						"v1",
+						"Books"
+					],
+					"query": [
+						{
+							"key": "author_id",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "asc"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "offset",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
